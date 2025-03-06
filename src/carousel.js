@@ -4,32 +4,29 @@ import Carousel from 'react-bootstrap/Carousel';
 import img1 from './img/carousel-1.jpg';
 import img2 from './img/carousel-2.jpg';
 import img3 from './img/front.jpeg';
+import vid1 from './img/video-1.mp4'
+import vid2 from "./img/video-2.mp4"
 
 function Carousels() {
   return (
-    <Carousel interval={4000} fade={true} wrap={true} slide={true}>
+    <Carousel interval={10000} fade={true} wrap={true} slide={true}>
+      {/* <Carousel.Item style={{height:"600px"}} >
+        
+        <video src={vid1} loop muted autoPlay  />
+       
+      </Carousel.Item> */}
+
       <Carousel.Item >
-        <img src={img1} className="d-block w-100" alt="First slide" />
-        <Carousel.Caption>
-          <h3>First Slide Label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <img src={img2} className="d-block w-100" alt="Second slide" />
-        <Carousel.Caption>
-          <h3>Second Slide Label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <img src={img3} className="d-block w-100" alt="Third slide" />
-        <Carousel.Caption>
-          <h3>Third Slide Label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </Carousel.Caption>
+        <div style={{ height: "600px", display: "flex", justifyContent: "center", alignItems: "center", overflow: "hidden" }}>
+      <video 
+        src={vid1} 
+        loop 
+        muted 
+        autoPlay 
+        style={{ width: "100%", height: "100%", objectFit: "cover" }} 
+      />
+    </div>
+        
       </Carousel.Item>
     </Carousel>
   );

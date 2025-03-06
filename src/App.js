@@ -8,7 +8,7 @@ import ContactPage from './ContactPage';
 import AboutPage from './AboutPage';
 import AdminPage from './AdminPage';
 import MobileBooking from './test';
-import BookingPage from './BookingPage';
+// import BookingPage from './BookingPage';
 
 function App() {
   return (
