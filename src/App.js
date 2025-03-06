@@ -7,6 +7,8 @@ import ProjectPage from './ProjectPage';
 import ContactPage from './ContactPage';
 import AboutPage from './AboutPage';
 import AdminPage from './AdminPage';
+import MobileBooking from './test';
+import BookingPage from './BookingPage';
 
 function App() {
   return (
@@ -19,7 +21,7 @@ function App() {
           <Route path='/contact' element={<ContactPage/>}></Route>
           <Route path='/about' element={<AboutPage/>}></Route>
           <Route path='/admin' element={<AdminPage/>}></Route>
-
+          {/* <Route path='/test' element={<BookingPage/>}></Route> */}
         </Routes>
       </Router>
     </div>

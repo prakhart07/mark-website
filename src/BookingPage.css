@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Top Navigation */
+  .top-nav {
+    background-color: #002d5b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    align-items: center;
+  }
+  
+  .top-nav .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .top-nav nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  /* Main Content */
+  .content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  /* Booking Details Section */
+  .booking-details {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+  }
+  
+  .booking-details h2 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .details p {
+    margin: 5px 0;
+  }
+  
+  .image-box {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .image-box img {
+    width: 200px;
+    height: auto;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #002d5b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Mobile Booking UI */
+  .mobile-view {
+    width: 300px;
+    background-color: #dce8f2;
+    border-radius: 20px;
+    padding-top: 60px; /* Add padding so content does not overlap header */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* Make the header full width and cover the top */
+  .mobile-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #002d5b;
+    color: white;
+    padding: 15px;
+    border-radius: 0; /* Remove rounded edges */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box; /* Ensures padding doesn’t affect width */
+  }
+  
+  .mobile-header h3 {
+    margin: 0;
+  }
+  
+  .mobile-header p {
+    margin: 0;
+  }
+  
+  .booking-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-top: 80px; /* Space below the header */
+  }
+  
+  .booking-card h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .booking-card p {
+    font-size: 14px;
+    color: gray;
+    margin: 2px 0;
+  }
+  
+  .logo-container {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .logo-container img {
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Mobile Navigation */
+.mobile-nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #002d5b;
+  color: white;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+  
